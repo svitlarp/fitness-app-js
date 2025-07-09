@@ -7,14 +7,21 @@
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
+    <!-- Header -->
     <load src="./partials/header.html" />
-    <load src="./partials/mobile-menu.html" />
+    <!-- Main -->
     <main class="main-content">
-      <load src="./partials/hero_section.html" />
-      <load src="./partials/exercises/exercises-section.html" />
+      <load src="./partials/hero-section.html" />
+      <h2 class="header2">Fitness App</h2>
+      <button type="button" class="get-quote-btn">GetQuote</button>
+      <button type="button" class="get-muscles-btn">Muscles</button>
+      <button type="button" class="get-body-parts-btn">BodyParts</button>
+      <button type="button" class="get-equipment-btn">Equipment</button>
     </main>
-    <div id="modals-container"></div>
+    <!-- <div id="modals-container"></div> -->
     <load src="./partials/footer.html" />
     <script type="module" src="./js/main.js" async></script>
+    <script type="module" src="./js/api/quotes.js" async></script>
+    <script type="module" src="./js/api/filters.js" async></script>
   </body>
 </html>
